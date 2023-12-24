@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <!--Google Tag Manager-->
+      <script type="text/javascript" async="" src="./Theory_files/analytics.js.download"></script><script async="" src="./Theory_files/gtm.js.download"></script><script class="gtm">
+        var dataLayer = [{
+        'labName': 'Digital Electronics IITR',
+        'discipline': 'Electronics and Communication Engineering',
+        'college': 'IITR',
+        'phase': '3',
+        'expName': 'Detection of both SA0 and SA1 faults on 2–input XOR and XNOR logic gates',
+        'expShortName': 'truth-table-gates'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W59SWTR');
+      </script>
+      <!--End Google Tag Manager-->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="truth-table-gates">
+    	<meta name="developer-institute" content="IITR">
+    	<meta name="learning-unit" content="Detection of both SA0 and SA1 faults on 2–input XOR and XNOR logic gates.">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Theory</title>
+    <link rel="shortcut icon" href="https://de-iitr.vlabs.ac.in/exp/truth-table-gates/assets/images/favicon.ico">
+    <link rel="stylesheet" href="./Theory_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Theory_files/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="./Theory_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Theory_files/font-awesome.min.css">
+    <link rel="stylesheet" href="./Theory_files/github-markdown.min(1).css">
+    <link rel="stylesheet" href="./Theory_files/style.min.css">
+    <link rel="stylesheet" href="./Theory_files/vlabs-style.css">
+    
+    <script src="./Theory_files/jquery-3.4.1.slim.min.js.download"></script>
+    <script src="./Theory_files/popper.min.js.download" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="./Theory_files/bootstrap.min.js.download" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+
+		    
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Aim.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="Posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="References.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="">Theory</h2>
+          
+            </div>
+              <h3 id="introduction">Introduction</h3>
+          Logic gates are the basic building blocks of any digital system. They are electronic circuits having one or more inputs and produce output that is some logical function of the input. The various logic gates are:<br>
+          AND, OR gate, NOT gate, NAND gate, NOR gate, Ex-OR gate and Ex-NOR gate.<br>
+    
+          <h3 id="1-ex-or-gate">1) Ex-OR gate</h3>
+          
+          The 'Exclusive-OR' gate is a circuit which will give a high output if an odd number of inputs are high(1).  An encircled plus sign (⊕) is used to show the Ex-OR operation.
+          <br><br>
+          <center><b>Y= A⊕B = (A+B).(A.B)'</b><br><br>
+          <p><img src="./Theory_files/xor.png" width="325" height="150"> <br><b>Figure-1: Logic Symbol of Ex-OR gate</b><br><br><br>
+          <img src="./Theory_files/truth_xor.png" width="300" height="200"> <br><b>Table-1: Truth Table of Ex-OR gate</b><br></p></center><p></p>
+                  
+          <h3 id="2-ex-nor-gate">2) Ex-NOR gate</h3>
+          
+          The 'Exclusive-NOR' gate circuit functions opposite to the EX-OR gate. It will give a low output if an odd number of inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.<br>
+          <center><p align="center" style="font-size:120%; margin-top:2%"><b>Y= <span style="text-decoration: overline;">A⊕B</span></b></p><br>
+          
+          <p><img src="./Theory_files/xnor.png" width="325" height="150"><br> <b>Figure-2: Logic Symbol of Ex-NOR gate</b><br><br><br>
+          <img src="./Theory_files/truth_xnor.png" width="300" height="200"><br> <b>Table-2: Truth Table of Ex-NOR gate</b><br></p></center>
+          <br>
+          <h3 id="introduction">Stuck at Faults</h3>
+          
+          A Stuck at(SA) fault is a type of structural level fault model where one or more lines in the circuit is permanently fixed at logic level 0(SA0) or 1(SA1) 
+          due to some failures. It is a very popular fault model as it can model many realistic physical failures in Integrated Cicuits. Faults on a line L are denoted 
+          as L s-a-0 or L/0, and L s-a-1 or L/1. Fanout stems and branches(one wire branching off into two or more wires) are considered as separate lines, because SA faults 
+          in the branches may occur independent of its stem. Stuck at faults are further divided as:
+          <br>
+          <ol>
+            <li>Single SA fault: only one of the cicuit lines has a fault at any given time. This is the most widely used fault model in the industry. If the cicuit has n lines, 
+              total number of single SA faults is 2n(n SA0 + n SA1). Our experiment covers only single SA faults.
+            </li>
+            <li>Multiple SA fault: Any number of cicuit lines can be faulty at a given time. For a circuit with n lines, total number of multiple SA faults is 3^n - 1
+              (as each wire can be in one of three states:- SA0, SA1 and fault free, but not all of them can be fault free).
+            </li>
+          </ol>
+          <br>
+          <br><center>
+          <img src="./Theory_files/xorsa.png" width="900" height="500"><br> <b>Table-3: XOR single-SA fault coverage</b><br><br><br>
+          <img src="./Theory_files/xnorsa.png" width="900" height="500"><br> <b>Table-4: XNOR single-SA fault coverage</b>
+        </center>
+          </div>
+        </div>
+      </div>
+
+      <script src="./Theory_files/toggleSidebar.js.download"></script>
+      
+  
+
+</body></html>
